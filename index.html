@@ -1,8 +1,24 @@
 <html>
+<style>
+  body{
+    background-color: lightgrey;
+    font-family: Georgia, serif;
+  }
+  h1{
+    font-size: 3em;
+  }
+  p{
+    font-size: 1em;
+  }
+</style>
 <body>
 <p id="text"> </p>
 <script>
-  var txt = prompt("Enter some text.");
+  var thing = prompt("Enter a thing.");
+  var celeb = prompt("Enter a celebrity name.");
+  var place = prompt("Enter a place.");
+  var verb = prompt("Enter a verb.");
+  var txt = "One fine day, " + celeb + " was walking down the street. They were on their way to the " + place +  "Suddenly, they saw a " + thing + ". They " + verb + "ed, and everyone laughed.";
   document.getElementById("text").innerHTML = txt;
 </script>
 </body>
