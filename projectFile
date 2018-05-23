@@ -1,0 +1,9 @@
+<html>
+<body>
+<p id="text"> </p>
+<script>
+  var txt = prompt("Enter some text.");
+  document.getElementById("text").innerHTML = txt;
+</script>
+</body>
+</html>
